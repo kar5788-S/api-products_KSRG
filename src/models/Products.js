@@ -7,7 +7,7 @@ const productSchema = new Schema({
     cost:Number,
     price: Number,
     stock: Number,
-    expired_date:String
+    espired_date:String
 }, {
     timestamps:true,
     versionKey: false
